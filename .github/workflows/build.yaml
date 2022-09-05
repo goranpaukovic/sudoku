@@ -19,6 +19,6 @@ jobs:
         sudo apt-get --yes install libarmadillo-dev
     - name: "Build Step 1"
       run: |
-        echo "only print"
-        which make
+        echo "Starting make"
+        make
 
