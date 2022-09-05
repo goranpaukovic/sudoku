@@ -1,0 +1,19 @@
+name: Build, tests
+
+# When to trigger this workflow
+on:
+  push:
+  pull_request:
+    branches: [ master, feature ]
+
+jobs:
+  hello-world:
+    name: "Build"
+    # Runner node
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: "Build Step 1"
+      run: |
+        echo "only print"
+
