@@ -16,7 +16,7 @@ jobs:
     - uses: egor-tensin/setup-gcc@v1
     - name: "Install armadillo lib"
       run: |
-        apt-get --yes install libarmadillo-dev
+        sudo apt-get --yes install libarmadillo-dev
     - name: "Build Step 1"
       run: |
         echo "only print"
