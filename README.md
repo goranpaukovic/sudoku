@@ -45,6 +45,9 @@ Items to grade:
     * implements actual game-play and game-play logic (taking user input, printing/formatting to screen etc.)
     * implemented comamnd line flags and associated functions(ie. unit testing / timing functions)
 
+3. Goran:
+    * workflows
+
 ## Notes on Building Project ##
 
 Build reqiures the `armadillo` library.  You can download it from the website
